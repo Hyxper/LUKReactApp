@@ -1,0 +1,60 @@
+body {
+    background-color: rgb(236, 236, 236) !important;
+  }
+  
+  .ui.inverted.top.fixed.menu {
+    background-color: rgb(236, 236, 236) !important;
+    box-shadow: 0 4px 2px -2px gray;
+  }
+  
+  .menu-container {
+    display: flex !important;
+    justify-content: center;
+  }
+  
+  .ui.menu .item {
+    color: rgb(255, 0, 0) !important; 
+  }
+  
+  .ui.menu .item:hover {
+    color: #5be767 !important;
+  }
+  
+  .app-container {
+    display: flex;
+    padding: 20px;
+    margin-top: 70px; 
+  }
+  
+  .side-menu-container {
+    flex: 1;
+    display: flex;
+    max-width: 300px;
+    margin-right: 20px;
+    justify-content: center;
+    align-items: flex-start;
+  }
+  
+  .driver-search-container {
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    max-width: 1200px;
+    max-height: 600px;
+    overflow: auto;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ccc; 
+    border-radius: 8px; 
+  }
+  
+  .driver-list {
+    flex: 1;
+    overflow-y: auto;
+    margin-top: 10px;
+  }
+
+  .driver-list .ui.table th,
+  .driver-list .ui.table td {
+  font-size: 12px !important;
+}
